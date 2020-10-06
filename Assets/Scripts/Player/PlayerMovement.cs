@@ -10,7 +10,6 @@ public class PlayerMovement : MonoBehaviour
     bool facingLeft;
     bool facingRight;
     public bool isGrounded; // set by GroundedTigger.cs
-    public bool canDoubleJump;
     public float moveSpeed = 10f;
     public float jumpSpeed = 1f;
 
@@ -25,7 +24,7 @@ public class PlayerMovement : MonoBehaviour
     {
         // movement horizontal with virtual input axis
         inputHori = Input.GetAxis("Horizontal"); // return val from -1 to 1
-        
+
         // change player direction (facing)
         if (inputHori < 0 && !facingLeft) {
             facingLeft = true;
@@ -41,10 +40,6 @@ public class PlayerMovement : MonoBehaviour
         // jumping
         if (Input.GetButtonDown("Jump") && isGrounded){
             isJumping = true;
-        }
-        if (Input.GetButtonDown("Jump") && canDoubleJump) {
-            isJumping = true;
-            canDoubleJump = false;
         }
     }
 
