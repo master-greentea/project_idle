@@ -29,12 +29,12 @@ public class PlayerMovement : MonoBehaviour
         if (inputHori < 0 && !facingLeft) {
             facingLeft = true;
             facingRight = false;
-            transform.Rotate(0f, 180f, 0f);
+            transform.Rotate(1f, 180f, 0f);
         }
         if (inputHori > 0 && !facingRight) {
             facingRight = true;
             facingLeft = false;
-            transform.Rotate(0f, 180f, 0f);
+            transform.Rotate(1f, 180f, 0f);
         }
 
         // jumping
