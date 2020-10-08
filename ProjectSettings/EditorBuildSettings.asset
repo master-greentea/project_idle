@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Livingroom.unity
+    path: Assets/Scenes/LivingRoom.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/Bedroom.unity
@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Basement.unity
     guid: 3d470d1ac59fd614e9ffbdf85a2d78c9
+  - enabled: 1
+    path: Assets/Scenes/Shooting Game.unity
+    guid: b82573402d11f0d43ad42b4e41643269
+  - enabled: 1
+    path: Assets/Scenes/Platform Game.unity
+    guid: 9c44dbc08cc80914997e3e88a63f2e57
   m_configObjects: {}

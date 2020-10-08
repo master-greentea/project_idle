@@ -9,12 +9,18 @@ public class Portal : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     void OnTriggerStay2D(Collider2D player) {
         if (Input.GetKey(KeyCode.F)) {
-            SceneManager.LoadScene(RoomToGo);
+            if (RoomToGo == "Shooting Game") {
+                float rand = Random.Range(0f, 100f);
+                if (rand < 50) {
+                    RoomToGo = "Platform Game";
+                }
+            }
+            SceneManager.LoadSceneAsync(RoomToGo);
         }
     }
 }
