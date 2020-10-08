@@ -14,7 +14,8 @@ public class ProjectileLaunch : MonoBehaviour
     {
         // move mouse to aim
         // -1f is move mouse left, 1f move mouse right, 0f not moving mouse horizontally
-        float vertiMouseSpeed = Input.GetAxis("Mouse Y");
+        float vertiMouseSpeed = Input.GetAxis("Mouse Y") * 5f;
+
 
         // lock rotation
         myRotationZ += vertiMouseSpeed;

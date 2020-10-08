@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 public class Ending : MonoBehaviour
 {
     void OnTriggerEnter2D(Collider2D activator) {
-        SceneManager.LoadScene("Bedroom");
+        if (activator.tag == "Player") {
+            SceneManager.LoadScene("Bedroom");
+        }
     }
 }
