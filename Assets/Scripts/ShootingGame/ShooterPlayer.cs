@@ -46,7 +46,7 @@ public class ShooterPlayer : MonoBehaviour
 
         // check to see if won
         if (GameObject.FindGameObjectsWithTag("Enemy").Length == 0) {
-            SceneManager.LoadScene("Bedroom");
+            SceneManager.LoadScene("Game");
         }
     }
 

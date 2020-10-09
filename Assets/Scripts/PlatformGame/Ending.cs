@@ -7,7 +7,7 @@ public class Ending : MonoBehaviour
 {
     void OnTriggerEnter2D(Collider2D activator) {
         if (activator.tag == "Player") {
-            SceneManager.LoadScene("Bedroom");
+            SceneManager.LoadScene("Game");
         }
     }
 }

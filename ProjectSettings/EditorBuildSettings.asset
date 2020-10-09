@@ -15,12 +15,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Basement.unity
     guid: 3d470d1ac59fd614e9ffbdf85a2d78c9
   - enabled: 1
-    path: Assets/Scenes/Shooting Game.unity
+    path: Assets/Scenes/Games/Shooting Game.unity
     guid: b82573402d11f0d43ad42b4e41643269
   - enabled: 1
-    path: Assets/Scenes/Platform Game.unity
+    path: Assets/Scenes/Games/Platform Game.unity
     guid: 9c44dbc08cc80914997e3e88a63f2e57
   - enabled: 1
     path: Assets/Scenes/Work.unity
     guid: 26330577b84fc5e4e9fcfef28bdfdafa
+  - enabled: 1
+    path: Assets/Scenes/Game.unity
+    guid: d12dd672a5bf3f140b0d29b551ce8d22
   m_configObjects: {}

@@ -14,12 +14,6 @@ public class Portal : MonoBehaviour
 
     void OnTriggerStay2D(Collider2D player) {
         if (Input.GetKey(KeyCode.F)) {
-            if (RoomToGo == "Shooting Game") {
-                float rand = Random.Range(0f, 100f);
-                if (rand < 50) {
-                    RoomToGo = "Platform Game";
-                }
-            }
             SceneManager.LoadSceneAsync(RoomToGo);
         }
     }

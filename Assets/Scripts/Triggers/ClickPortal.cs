@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Quit : MonoBehaviour
+public class ClickPortal : MonoBehaviour
 {
     // Start is called before the first frame update
+    public string sceneToGo;
     void Start()
     {
         
@@ -13,6 +14,6 @@ public class Quit : MonoBehaviour
 
     void OnMouseDown()
     {
-        SceneManager.LoadScene("Bedroom");
+        SceneManager.LoadScene(sceneToGo);
     }
 }
