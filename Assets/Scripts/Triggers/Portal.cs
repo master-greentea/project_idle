@@ -13,7 +13,7 @@ public class Portal : MonoBehaviour
     }
 
     void OnTriggerStay2D(Collider2D player) {
-        if (Input.GetKey(KeyCode.F)) {
+        if (Input.GetKeyDown(KeyCode.F)) {
             SceneManager.LoadSceneAsync(RoomToGo);
         }
     }
