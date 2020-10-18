@@ -8,6 +8,7 @@ public class SputifyAudio : MonoBehaviour
     private GameObject cam;
     public AudioClip clip;
     public bool playSong;
+    
     void Start() {
         cam = GameObject.Find("Main Camera");
         myAduio = cam.GetComponent<AudioSource>();

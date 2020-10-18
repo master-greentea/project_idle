@@ -42,6 +42,7 @@ public class ShooterPlayer : MonoBehaviour
             Rigidbody2D newClone = Instantiate(playerBullet, transform.position + transform.right, gameObject.transform.rotation);
             // adding force to "down"
             newClone.AddForce(transform.right * shootForce);
+            GetComponent<AudioSource>().Play();
         }
 
         // check to see if won

@@ -39,6 +39,7 @@ public class PlayerMovement : MonoBehaviour
 
         // jumping
         if (Input.GetButtonDown("Jump") && isGrounded){
+            GetComponent<AudioSource>().Play();
             isJumping = true;
         }
     }

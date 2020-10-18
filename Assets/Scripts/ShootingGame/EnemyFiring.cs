@@ -26,6 +26,7 @@ public class EnemyFiring : MonoBehaviour
             Rigidbody2D newClone = Instantiate(enemyBullet, transform.position + transform.right, gameObject.transform.rotation);
             // adding force to "down"
             newClone.AddForce(transform.right * shootForce);
+            GetComponent<AudioSource>().Play();
         }
 
     }
