@@ -9,6 +9,9 @@ public class ChordPlayer : MonoBehaviour
     Animator myAni;
     // chord audio
     AudioSource myChord;
+
+    // change chord name color effect
+    public SpriteRenderer chordSprite;
     void Start()
     {
         myAni = GameObject.Find("String").GetComponent<Animator>();
@@ -20,6 +23,8 @@ public class ChordPlayer : MonoBehaviour
         // stop animation if no chord is playing
         if (Input.GetMouseButtonUp(0)) {
             myAni.SetBool("playing", false);
+            // change chord name color to white when not playing
+            chordSprite.color = Color.white;
         }
     }
     
@@ -31,6 +36,9 @@ public class ChordPlayer : MonoBehaviour
 
         // play chord
         myChord.Play();
+
+        // change color
+        chordSprite.color = Color.cyan;
     }
 
 }

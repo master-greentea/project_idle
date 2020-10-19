@@ -273,6 +273,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 445e6fb231d18f3438cbfb55d7c89041, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  chordSprite: {fileID: 1110106302}
 --- !u!82 &285063028
 AudioSource:
   m_ObjectHideFlags: 0
@@ -536,6 +537,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 445e6fb231d18f3438cbfb55d7c89041, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  chordSprite: {fileID: 1789281867}
 --- !u!1 &316958431
 GameObject:
   m_ObjectHideFlags: 0
@@ -874,6 +876,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 445e6fb231d18f3438cbfb55d7c89041, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  chordSprite: {fileID: 862612373}
 --- !u!1 &382694874
 GameObject:
   m_ObjectHideFlags: 0
@@ -1224,6 +1227,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 445e6fb231d18f3438cbfb55d7c89041, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  chordSprite: {fileID: 79997338}
 --- !u!1 &862612372
 GameObject:
   m_ObjectHideFlags: 0
@@ -1634,6 +1638,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 445e6fb231d18f3438cbfb55d7c89041, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  chordSprite: {fileID: 382694875}
 --- !u!1 &1493243846
 GameObject:
   m_ObjectHideFlags: 0
@@ -2098,6 +2103,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 445e6fb231d18f3438cbfb55d7c89041, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  chordSprite: {fileID: 942133752}
 --- !u!1 &2038488093
 GameObject:
   m_ObjectHideFlags: 0
@@ -2265,3 +2271,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 445e6fb231d18f3438cbfb55d7c89041, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  chordSprite: {fileID: 1493243847}
