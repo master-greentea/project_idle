@@ -15,7 +15,6 @@ public class ChordPlayer : MonoBehaviour
         myChord = GetComponent<AudioSource>();
     }
 
-
     void Update()
     {
         // stop animation if no chord is playing
@@ -23,6 +22,7 @@ public class ChordPlayer : MonoBehaviour
             myAni.SetBool("playing", false);
         }
     }
+    
     void OnMouseDown()
     {
         // if chord playing, do animation
